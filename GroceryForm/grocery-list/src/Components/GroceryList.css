@@ -1,0 +1,39 @@
+
+.button-add {
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+  }
+  
+  .button-add:hover {
+    background-color: #7145a0; 
+  }
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .list-section {
+    flex-basis: 30%; 
+    text-align: center; 
+  }
+  
+  .list-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .list-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  

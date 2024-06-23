@@ -1,0 +1,42 @@
+form{
+    width: 40%;
+    padding: 1em;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 154, 186);
+}
+
+form input, form textarea{
+    width: 98%;
+    padding: 1%;
+    margin: 1em auto;
+
+}
+form textarea{
+    height: 120px;
+}
+
+form label{
+    display: inline-block;
+    width: 70%;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.button-add {
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+  }
+  
+  .button-add:hover {
+    background-color: #7145a0; 
+  }
+  
